@@ -11,7 +11,7 @@ public class LaunchChrome {
 
     @Test
     public void testLaunch(){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Sagar\\Softwares\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.softpost.org");
         driver.close();
